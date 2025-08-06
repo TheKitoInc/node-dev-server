@@ -4,6 +4,9 @@
   "description": "node-dev-server",
   "main": "index.js",
   "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "build": "ncc build ./src/index.js -o ./dist --minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/TheKitoInc/node-dev-server/issues"
   },
-  "homepage": "https://github.com/TheKitoInc/node-dev-server#readme"
+  "homepage": "https://github.com/TheKitoInc/node-dev-server#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.38.3",
+    "chokidar": "^4.0.3",
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  }
 }
