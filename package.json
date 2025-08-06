@@ -25,5 +25,8 @@
     "chokidar": "^4.0.3",
     "express": "^5.1.0",
     "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }
