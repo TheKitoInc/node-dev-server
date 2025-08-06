@@ -1,4 +1,4 @@
-/*!
+/*
  * node-dev-server
  * Copyright(c) 2025 TheKitoInc
  * MIT Licensed
